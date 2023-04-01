@@ -28,7 +28,8 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['motor-werks.herokuapp.com', 'localhost',
+                 'localhost:8000', '127.0.0.1', '127.0.0.1:8000']
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
